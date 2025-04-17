@@ -7,9 +7,6 @@
       "path": "./apps/todo-app"
     },
     {
-      "path": "./frontend"
-    },
-    {
       "path": "./ui"
     },
     {
