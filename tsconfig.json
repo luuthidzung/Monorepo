@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/todo-app"
+    },
+    {
+      "path": "./frontend"
+    },
+    {
+      "path": "./ui"
+    },
+    {
+      "path": "./models"
+    },
+    {
+      "path": "./utils"
+    }
+  ]
+}
