@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "nx build todo-app",
+  "outputDirectory": "./apps/todo-app/dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
