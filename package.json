@@ -2,7 +2,11 @@
   "name": "@todo-app/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx build todo-app",
+    "start": "nx serve todo-app",
+    "lint": "nx lint todo-app"
+  },
   "private": true,
   "dependencies": {
     "vue": "^3.5.13",
