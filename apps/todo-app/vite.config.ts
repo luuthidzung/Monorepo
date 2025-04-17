@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
 export default defineConfig(() => ({
-  root: __dirname,
+  root: 'src',
   cacheDir: '../../node_modules/.vite/apps/todo-app',
   server: {
     port: 4200,
@@ -32,6 +32,9 @@ export default defineConfig(() => ({
     reportCompressedSize: true,
     commonjsOptions: {
       transformMixedEsModules: true,
+    },
+    rollupOptions: {
+      input: 'src/index.html', // Chỉ định rõ tệp điểm vào
     },
   },
   test: {
