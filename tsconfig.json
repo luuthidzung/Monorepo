@@ -7,13 +7,13 @@
       "path": "./apps/todo-app"
     },
     {
-      "path": "./ui"
+      "path": "./package/ui"
     },
     {
-      "path": "./models"
+      "path": "./package/models"
     },
     {
-      "path": "./utils"
+      "path": "./package/utils"
     }
   ]
 }
